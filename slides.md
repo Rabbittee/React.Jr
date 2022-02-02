@@ -340,6 +340,6 @@ layout: center
 class: text-center
 ---
 
-# Learn More
+# つづく
 
-[Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
+[聊天討論](https://github.com/Rabbittee/React.Jr/discussions) · [馬上就來練習](https://github.com/Rabbittee/js30-react)
