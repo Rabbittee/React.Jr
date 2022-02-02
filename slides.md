@@ -135,7 +135,7 @@ function App() {
       <Header />
       <Main />
       <Modal />
-    </GlobalStyles>
+    </>
   );
 }
 
