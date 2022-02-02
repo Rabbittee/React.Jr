@@ -21,13 +21,13 @@ drawings:
   persist: false
 ---
 
-# Welcome to React Jr.
+# React Jr.
 
 React for the junior
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
+    Let's get this party started <carbon:arrow-right class="inline"/>
   </span>
 </div>
 
@@ -95,7 +95,7 @@ h1 {
 
 ---
 
-# Root and App
+# Root
 
 React 會有一個最根本的入口，用來宣染整個 React web app，習慣性會將一些 middleware 放在這
 
@@ -131,10 +131,11 @@ function App() {
 
   return (
     <>
+      <GlobalStyles />
       <Header />
       <Main />
-      <Dialog />
-    </>
+      <Modal />
+    </GlobalStyles>
   );
 }
 
@@ -207,8 +208,14 @@ App 透過 `name` 將 `Sara` 傳遞給 Welcome，Welcome 則能夠透過 props.n
 </p>
 
 <p v-after>
-要注意的是，props 是唯讀的。
+要注意的是，<mark> 永遠不要去修改 props 的值 </mark>。
 </p>
+
+<style>
+  mark {
+    background-color: coral;
+  }
+</style>
 
 ---
 
