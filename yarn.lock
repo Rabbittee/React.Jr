@@ -213,9 +213,9 @@
     theme-vitesse "^0.1.12"
 
 "@slidev/theme-seriph@*":
-  version "0.21.1"
-  resolved "https://registry.yarnpkg.com/@slidev/theme-seriph/-/theme-seriph-0.21.1.tgz#4f0a0e7782880ef1880789fabaaed244a2afab91"
-  integrity sha512-m+njvNGn/Ng5rfmUW4zIrNVgTDEjFP6p53AVcC9YZxWZqWk4Ttt7eZlr65DCb4ZOjUKfU0vgIZzdgHP8gIhVNw==
+  version "0.21.2"
+  resolved "https://registry.yarnpkg.com/@slidev/theme-seriph/-/theme-seriph-0.21.2.tgz#d8ac290b9df69ee9fe753921e3a8cc2475678e31"
+  integrity sha512-D3zhFYBmH1X37LX1LvTUPxAM1EEK6vMfy4hyxI9JIBXuugVq1WrfjcD+Lt9HnLpH1EqD3Mk+gS0lP/uC2TaVQw==
   dependencies:
     "@slidev/types" "^0.22.7"
     codemirror-theme-vars "^0.1.1"
